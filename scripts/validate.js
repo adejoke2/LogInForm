@@ -6,8 +6,7 @@ function validate(){
 
     if (name == "Habeebah" && password == "Adejoke"){
         alert("Login Successfully");
-        window.location = "/ProfileCard/index.html";
-        //window.location = "success.html";
+        window.location = "success.html";
         return false;
     }
     else{
